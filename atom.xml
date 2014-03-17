@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Ubiratan Soares]]></title>
+  <link href="http://ubiratansoares.github.io/atom.xml" rel="self"/>
+  <link href="http://ubiratansoares.github.io/"/>
+  <updated>2014-03-16T23:09:39-03:00</updated>
+  <id>http://ubiratansoares.github.io/</id>
+  <author>
+    <name><![CDATA[Ubiratan Soares]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Novo Blog No Ar]]></title>
+    <link href="http://ubiratansoares.github.io/blog/2014/03/16/novo-blog-no-ar/"/>
+    <updated>2014-03-16T22:44:54-03:00</updated>
+    <id>http://ubiratansoares.github.io/blog/2014/03/16/novo-blog-no-ar</id>
+    <content type="html"><![CDATA[<p>Fala galera!</p>
+
+<p>Resolvi voltar aqui de um jeito igual, mas diferente : fazendo (de novo) o <em>setup</em> de um novo blog e uma nova webpage.</p>
+
+<p>Eu já estava bastante cansado do velho esquema do Wordpress&hellip; Algumas coisas ali me irritavam mais do que era necessário, e com um fluxo de acesso ao meu blog aumentando nos últimos meses &ndash; muito em decorrência das apresentações nos eventos ao longo do ano passado e uma sequência bacana de posts &ndash; eu resolvi que era hora de tentar algo que de alguma forma me estimulasse mais&hellip;</p>
+
+<!-- more -->
+
+
+<p>Sendo assim, a partir de agora eu publico as minhas idéias através do <a href="http://octopress.org/">Octopress</a>, com <em>deploy</em> via Github. Acredito que essa é uma maneira interessante de realmente fazer o que sempre quis por aqui.</p>
+
+<p>Muito em breve eu devo republicar os <em>posts</em> mais relevantes do meu antigo blog aqui também, em especial aqueles referentes às apresentações de 2013 com seus devidos adendos e comentários. Aproveitando a deixa, partir de agora eu subo meus slides das palestras via <a href="https://speakerdeck.com/ubiratansoares">SpeakerDeck</a>.</p>
+
+<p>A minha intenção é realmente fazer de 2014 um ano bacana para esse blog, usando o mesmo como mais um instrumento para o meu humilde esforço de contribuição para com a comunidade de desenvolvimento Android aqui no Brasil, que ao meu ver ainda tem <strong>muito</strong> a crescer.</p>
+
+<p>O planejamento é agora <strong>muito</strong> mais honesto e factível, mirando aí pelo menos um artigo técnico por mês. Um facilitador dessa meta &ndash; por hora &ndash; é o fato de que as primeiras idéias já estão na cabeça, e o foco das mesmas tende a ser um conteúdo técnico um pouco mais avançado relacionado a Android, algo que julgo faltar na nossa comunidade e no nosso idioma.</p>
+
+<p>Espero que gostem e sou todo ouvidos para sugestões!</p>
+]]></content>
+  </entry>
+  
+</feed>
