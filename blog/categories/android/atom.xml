@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Ubiratan Soares]]></title>
-  <link href="http://ubiratansoares.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Android | Ubiratan Soares]]></title>
+  <link href="http://ubiratansoares.github.io/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://ubiratansoares.github.io/"/>
   <updated>2014-05-13T22:51:51-03:00</updated>
   <id>http://ubiratansoares.github.io/</id>
@@ -554,60 +554,6 @@ android {
 
 <p>Aquele abraço e até a próxima!</p>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Brio com vazio]]></title>
-    <link href="http://ubiratansoares.github.io/blog/2014/03/24/brio-com-vazio/"/>
-    <updated>2014-03-24T00:28:17-03:00</updated>
-    <id>http://ubiratansoares.github.io/blog/2014/03/24/brio-com-vazio</id>
-    <content type="html"><![CDATA[<p>Sinto como se não estivesse no meu lugar. Deslocado. Irriquieto.  Desconfortável com algo cuja explicação foge ao lógico…</p>
-
-<!--more-->
-<p>A sensação é um misto de brio com vazio. O primeiro, por muito tempo apequenado, talvez hoje possa ser visto em algum volume - e por sua vez, ressalte mais aos olhares de quem vê. Aos olhos de quem sente, contudo, o segundo aparece constantemente como maior…</p>
-
-<p>E eu então não consigo deixar me perguntar as origens desse vazio. </p>
-
-<p>Se é consequência própria do brio, em uma outra face da moeda…</p>
-
-<p>Se é um derivado de coisas que agora só existem no passado presentificado… </p>
-
-<p>Se não se trata apenas de carências próprias de um longo período de solidão, ou mesmo se ele sempre esteve ali e passou sem ser visto…</p>
-
-<p>Vazio pressupõe ausência, falta, mas essa não é a platônica a princípio. Pois existe a clara impressão de que esse algo que falta ainda é não traduzível em palavras ou em idéia, e por consequência, é diferente de um objeto ou conceito conhecido mas impossível.</p>
-
-<p>Também tenho ciência de que essa falta é diferente da lacuna própria dos objetivos. Até por que, nesse caso, a maioria dos desejos moram na esfera do material, e portanto alcançáveis mediante organização e paciência. </p>
-
-<p>Esse vazio é alguma outra coisa. Está mais para as primeiras cinzas que se formaram depois que a chama do meu espírito se acendeu e queimou intensamente… E se assim for, então a tendência é que ele ainda me acompanhe por muito tempo, possivelmente enquanto eu viver…</p>
-
-<p>E se assim for, talvez o caminho seja pensar mais na sorte do que no azar de viver essa dicotomia. Em focar mais no alinhamento com o hoje. </p>
-
-<p>E acima de tudo, em ter a humildade sempre renovada para continuar não se conformando.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Novo Blog no ar]]></title>
-    <link href="http://ubiratansoares.github.io/blog/2014/03/16/novo-blog-no-ar/"/>
-    <updated>2014-03-16T22:44:54-03:00</updated>
-    <id>http://ubiratansoares.github.io/blog/2014/03/16/novo-blog-no-ar</id>
-    <content type="html"><![CDATA[<p>Fala galera!</p>
-
-<p>Resolvi voltar aqui de um jeito igual, mas diferente : fazendo (de novo) o <em>setup</em> de um novo blog e uma nova webpage. </p>
-
-<p>Eu já estava bastante cansado do velho esquema do Wordpress… Algumas coisas ali me irritavam mais do que era necessário, e com um fluxo de acesso ao meu blog aumentando nos últimos meses - muito em decorrência das apresentações nos eventos ao longo do ano passado e uma sequência bacana de posts - eu resolvi que era hora de tentar algo que de alguma forma me estimulasse mais…</p>
-
-<!-- more -->
-<p>Sendo assim, a partir de agora eu publico as minhas idéias através do <a href="http://octopress.org/">Octopress</a>, com <em>deploy</em> via Github. Acredito que essa é uma maneira interessante de realmente fazer o que sempre quis por aqui.</p>
-
-<p>Muito em breve eu devo republicar os <em>posts</em> mais relevantes do meu antigo blog aqui também, em especial aqueles referentes às apresentações de 2013 com seus devidos adendos e comentários. Aproveitando a deixa, partir de agora eu subo meus slides das palestras via <a href="https://speakerdeck.com/ubiratansoares">SpeakerDeck</a>.</p>
-
-<p>A minha intenção é realmente fazer de 2014 um ano bacana para esse blog, usando o mesmo como mais um instrumento para o meu humilde esforço de contribuição para com a comunidade de desenvolvimento Android aqui no Brasil, que ao meu ver ainda tem <strong>muito</strong> a crescer. </p>
-
-<p>O planejamento é agora <strong>muito</strong> mais honesto e factível, mirando aí pelo menos um artigo técnico por mês. Um facilitador dessa meta - por hora - é o fato de que as primeiras idéias já estão na cabeça, e o foco das mesmas tende a ser um conteúdo técnico um pouco mais avançado relacionado a Android, algo que julgo faltar na nossa comunidade e no nosso idioma.</p>
-
-<p>Espero que gostem e sou todo ouvidos para sugestões!</p>
 ]]></content>
   </entry>
   
