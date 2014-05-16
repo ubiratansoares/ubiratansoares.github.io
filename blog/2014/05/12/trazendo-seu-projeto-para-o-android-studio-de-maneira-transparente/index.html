@@ -43,7 +43,7 @@
 
 <p>Penso que o maior valor agregado ao desenvolvedor não reside aí : reside sim no novo <strong>sistema de build</strong> que junto com uma versão do IDEA customizada compõe o Android Studio: estou falando dele, do <strong>Gradle</strong>.</p>
 
-<p>Tenho comparado atualmente o Gradle com o <strong>Git</strong> : para o desenvolvedor, é mais uma ferramenta de produtividade não imediata, e mais uma curva de aprendizado a vencer. </p>
+<p>Tenho comparado atualmente o Gradle com o <strong>Git</strong> : para o desenvolvedor, é mais uma ferramenta de produtividade não imediatamente óbvia, e mais uma curva de aprendizado a vencer. </p>
 
 <p>As possibilidades na superfície do Gradle já são por demais interessantes, de modo que hoje acho impossível voltar atrás e trabalhar na antiga proposta do Eclipse, mesmo com as <em>builds</em> relativamente mais lentas do Gradle no meu modesto <em>hardware</em> do trabalho. </p>
 
@@ -55,33 +55,35 @@
 
 <p>Se você quer ter o real valor agregado da solução que se chama Android Studio, eu suponho que você quer sentir o gostinho do Gradle. </p>
 
-<p>O problema é que a opção de <strong>Import…</strong> do Android Studio com grande chance vai deixar a desejar em projetos maiores e mais antigos. Em especial, isso acontece com aqueles projetos típicos do Eclipse não muito bem estruturados (com várias bibliotecas <em>linkadas</em> manualmente por excelência). </p>
+<p>O problema é que a opção de <strong>Import…</strong> do Android Studio com grande chances vai deixar a desejar em projetos maiores e mais antigos; se assim não o fizer, ela tende a ser no mínimo não intuitiva. </p>
 
-<p>Em geral, essa opção de <em>Import</em> vai compor o projeto no Android Studio como uma estrutura de módulos com <em>build</em> pela própria nos moldes típicos do IntelliJ, e não pelo Gradle de fato.</p>
+<p>Em especial, isso acontece com aqueles projetos típicos do Eclipse, não muito bem estruturados do ponto de vista de organização das dependências(ou com várias bibliotecas <em>linkadas</em> manualmente por excelência). </p>
+
+<p>Em geral, essa opção de <em>Import</em> vai compor o projeto no Android Studio como uma estrutura de módulos com <em>build</em> pela própria IDE nos moldes típicos do IntelliJ, e sem o suporte ao Gradle de fato.</p>
 
 <p>Mesmo hoje, na versão 0.5.8 do Android Studio, eu me deparo com a seguinte tela ao tentar importar um projeto :</p>
 
 <p><img src="https://raw.githubusercontent.com/ubiratansoares/ubiratansoares.github.io/master/images/ss_gradle_import.png" /></p>
 
-<p>o que significa que ao final o projeto será importado na tradicional estrutura em módulos do IntelliJ, mas sem o suporte que queremos do Gradle…</p>
+<p>o que significa que ao final o projeto será importado na tradicional estrutura em módulos do IntelliJ, e provavelmente apenas isso.</p>
 
-<p>Como proceder então?</p>
+<p>O processo de importação está longe de acontecer de forma automática e transparente entre os dois ambientes para a maioria dos casos. Como proceder então?</p>
 
 <h5 id="comear-com-um-novo-projeto-no-android-studio">Começar com um novo projeto no Android Studio</h5>
 
 <p>Você pode criar um projeto no Android Studio do zero, o qual já irá trazer a estrutura de diretórios padrão já configurada bem como os arquivos já inicializados para o Gradle. </p>
 
-<p>Você pode então manualmente migrar todas as suas classes e diretórios com <em>assets</em> para essa nova estrutura, não esquecendo de mapear as dependências (falaremos disso mais à frente). </p>
+<p>Você pode então manualmente migrar todas as suas classes e diretórios com <em>assets</em> para essa nova estrutura, não esquecendo  também das dependências (falaremos disso mais à frente). </p>
 
 <p>Essa é uma abordagem direta e bastante utilizada. Eu considero ela como <strong>“Top-Down”</strong>. Serve muito bem para “sacudir a poeira”, atualizando as dependências do projeto ou mesmo descartando o que não é mais usado. Com certeza muito mais trabalhosa do que difícil… </p>
 
 <p>O único problema que vejo com ela é : como fazemos com membros do time que ainda preferem usar o <strong>Eclipse</strong>, já que criamos na prática um outro projeto, em um outro ambiente ? Deixamos de lado? </p>
 
-<p>Algumas vezes, isso não é uma opção, e devemos respeitar as preferências, mesmo as de IDE. <strong>:P</strong></p>
+<p>Algumas vezes, isso não é uma opção, e devemos respeitar as preferências, mesmo as de IDE. Ou então, o fluxo de trabalho simplesmente não pode parar de forma significativa para cada membro do time …</p>
 
 <h5 id="adicionar-suporte-ao-gradle-ao-projeto-j-existente">Adicionar suporte ao Gradle ao projeto já existente</h5>
 
-<p>Você pode adicionar o suporte ao Gradle - e consequentemente ao Android Studio - em um projeto estruturado no Eclipse já em andamento de uma maneira mais artesanal, investigando como acertar cada um dos arquivos <strong>build.gradle</strong> nas bibliotecas de interesse e estudando as dependências para que o controle seja feito <strong>ao máximo</strong> pelo próprio Gradle. </p>
+<p>Você pode adicionar o suporte ao Gradle - e consequentemente ao Android Studio, em uma opção de <strong>Import</strong> direta via <em>Gradle Model</em> - em um projeto estruturado no Eclipse de uma maneira mais artesanal, investigando como acertar cada um dos arquivos <strong>build.gradle</strong> nas bibliotecas de interesse e estudando as dependências para que o controle seja feito <strong>ao máximo</strong> pelo próprio Gradle. </p>
 
 <p>Se assim o fizer, você executará um procedimento transparente para colegas do seu time, já que agora o projeto agora também é totalmente acessível e manipulável pelo Android Studio com a adição de apenas alguns arquivos do Gradle. </p>
 
@@ -89,7 +91,7 @@
 
 <p>Eu tive recentemente a oportunidade de trazer alguns projetos do meu time que foram criados - e ganham continuidade - no Eclipse para o ambiente do Android Studio, pelo segundo caminho. Decidi, então, compartilhar aqui algumas das coisas que aprendi. </p>
 
-<p>Espero que elas sejam úteis para quem trabalha em time como eu, e que eventualmente pretende utilizar essa experiência para perder o medo e convencer os amigos a deixar o Eclipse morrer em paz… <strong>:P</strong></p>
+<p>Espero que elas sejam úteis para quem trabalha em time como eu, e que eventualmente pretende utilizar essa experiência para perder o medo e convencer os amigos a deixar o Eclipse morrer em paz…</p>
 
 <h3 id="mapeando-dependncias">Mapeando Dependências</h3>
 
@@ -106,11 +108,11 @@ Switched to a new branch 'gradle_build'
 
 <p>O primeiro passo para uma migração “Bottom-Up” é investigar as depedências do projeto. A idéia aqui é fazer um levantamento de tudo que queremos que Gradle controle de forma automatizada, buscando ao máximo utilizar artefatos atualizados advindos de repositórios <strong>Maven</strong>.</p>
 
-<p>Eu não vou entrar na discussão sobre dependências do Gradle em si, mas a princípio podemos assumir que o Gradle é capaz de trabalhar de forma transparente com repositórios de artefatos do Maven, e isso é <strong>amplamente</strong> utilizado. </p>
+<p>Eu não vou entrar na discussão sobre dependências do Gradle em si, mas a princípio podemos assumir que ele é capaz de trabalhar de forma transparente com repositórios de artefatos do Maven, e isso é <strong>amplamente</strong> utilizado. </p>
 
-<p>Nessa etapa, não vai ter muito como fugir de uma pesquisa nos repositórios do Github, verificando quais das suas bibliotecas Open Source já tinha um artefato disponível em algum repositório Maven.</p>
+<p>Nessa etapa, não vai ter muito como fugir de uma pesquisa nos repositórios do Github, verificando quais das suas bibliotecas <em>Open Source</em> já tinha um artefato disponível em algum repositório Maven, quais valem uma atualização, dentre outros.</p>
 
-<p>No meu caso, eu também tive alguma “sorte”, pois todos os projetos que constavam como bibliotecas no Workspace do Eclipse estavam presentes no controle de versão, acessíveis hierarquicamente a partir do diretório-raiz do projeto :</p>
+<p>No meu caso, eu também tive alguma “sorte”, pois todos os projetos que constavam como bibliotecas associadas via <em>Workspace</em> do Eclipse estavam presentes no controle de versão, acessíveis hierarquicamente a partir do diretório-raiz do projeto :</p>
 
 <div><div class="CodeRay">
   <div class="code"><pre>&gt; ls -la
@@ -131,7 +133,7 @@ drwxr-xr-x  14 bira  staff   476B May 12 16:02 library_ListViewAnimation/
 </div>
 </div>
 
-<p>Se esse for o seu caso, você já pode verificar inicialmente quais já possuem suporte ao Gradle para agilizar :</p>
+<p>Se esse for o seu caso, você já pode verificar facilmente quais já possuem suporte ao Gradle para agilizar :</p>
 
 <div><div class="CodeRay">
   <div class="code"><pre>&gt;  tree -fL 2 | grep build.gradle
@@ -145,7 +147,7 @@ drwxr-xr-x  14 bira  staff   476B May 12 16:02 library_ListViewAnimation/
 </div>
 </div>
 
-<p>e precisei também conferir os artefatos que temos na pasta <em>libs</em> :</p>
+<p>É preciso também conferir os artefatos que existem no diretório <em>libs</em> :</p>
 
 <div><div class="CodeRay">
   <div class="code"><pre>&gt; ls -la ProjetoMobile/libs/
@@ -167,9 +169,9 @@ drwxr-xr-x  18 bira  staff   612B May 12 16:02 ../
 
 <p>Dessa forma, fiz o seguinte levantamento preliminar :</p>
 
-<p>(a) Quais artefatos do diretório <projeto>/libs podem ser adicionados via Maven?</projeto></p>
+<p>(a) Quais artefatos do diretório _<projeto>/libs_ podem ser adicionados via Maven?</projeto></p>
 
-<p>Temos : </p>
+<p>No meu caso, eu tinha : </p>
 
 <ul>
   <li>android-support-v4 : <strong>Disponível</strong></li>
@@ -179,18 +181,20 @@ drwxr-xr-x  18 bira  staff   612B May 12 16:02 ../
   <li>NDefTools : <strong>Disponível</strong></li>
 </ul>
 
-<p>Apenas a biblioteca <strong>datecs.jar</strong> não era um artefato do tipo Maven devidamente gerenciado em algum repositório público, e optei por mantê-la como dependência local do projeto.</p>
+<p>Apenas a biblioteca <strong>datecs.jar</strong> não era um artefato do tipo Maven devidamente gerenciado em algum repositório público, e optei por mantê-la como dependência local do projeto. Eu não precisaria fazer assim, mas isso é assunto para um outro dia….</p>
 
 <p>(b) Das bibliotecas adicionas como projetos via <em>Workspace</em> do Eclipse, quais podem ser gerenciadas via Maven ao invés de serem incluídas como <em>Project Libraries</em> ?</p>
 
 <p>Inicialmente, fui informado de ante-mão que, para as bibliotecas associadas via <em>Workspace</em>, três delas sofreram alteração no código-fonte durante o desenvolvimento ( <strong>WizardPager</strong>, <strong>SugarORM</strong> e <strong>UndoBar</strong>), devidamente registrado no controle de versão. </p>
 
-<p>Além disso, <strong>DragAndSortListView</strong> e <strong>WizardPager</strong> não possuem suporte ao Gradle. Dessa forma, compilei a listagem do que a princípio poderia ser movido para o gerenciador de dependências do Gradle</p>
+<p>Além disso, as bibliotecas <strong>DragAndSortListView</strong> e <strong>WizardPager</strong> não possuem suporte ao Gradle por parte de seus desenvolvedores. </p>
+
+<p>Dessa forma, eu fui capaz de compilar uma listagem dos <em>Project Libraries</em> que a princípio poderiam ser movidos para o gerenciador de dependências do Gradle :</p>
 
 <ul>
   <li>PullToRefresh : <strong>OK</strong></li>
   <li>ShowCaseView : <strong>OK</strong> </li>
-  <li>Smooth ProgressBar : <strong>OK</strong></li>
+  <li>Smooth Progress Bar : <strong>OK</strong></li>
   <li>Wizard Pager : <strong>Não OK</strong> </li>
   <li>UndoBar : <strong>Não OK</strong> </li>
   <li>SugarORM : <strong>Não OK</strong> </li>
@@ -209,7 +213,7 @@ drwxr-xr-x  18 bira  staff   612B May 12 16:02 ../
 
 <ol>
   <li>
-    <p>Criar os arquivos necessários para o Gradle na raiz do projeto.</p>
+    <p>Criar os arquivos de escopo geral do Gradle na raiz do projeto.</p>
   </li>
   <li>
     <p>Para cada um dos módulos que permanecerão fora do gerenciador de de dependências, criar ou atualizar o arquivo <strong>build.gradle</strong> na raiz desse módulo.</p>
@@ -316,7 +320,7 @@ dependencies {
 
 <p>Repare que, nas dependências acima, tenho os três casos possíveis : um <strong>.jar</strong> local, projetos biblioteca ao estilo Gradle e dependências para o próprio Gradle resolver, buscando em repositórios do tipo Maven.</p>
 
-<p>Repare também que, além de referenciar a dependências, eu também preciso <em>ensinar</em> ao Gradle a nova <strong>estrutura de diretórios</strong> para a qual ele deve olhar durante o processo de <em>build</em> desse módulo, já que ela difere da padrão.</p>
+<p>Repare também que, além de referenciar a dependências, eu também preciso <em>“ensinar”</em> ao Gradle a <strong>estrutura de diretórios</strong> para a qual ele deve olhar durante o processo de <em>build</em> desse módulo, já que ela difere da padrão .</p>
 
 <p>Isso é feito no seguinte trecho do script :</p>
 
@@ -359,7 +363,7 @@ dependencies {
 
 <p>No meu caso, <em>DragAndSortListView</em> e <em>WizardPager</em> não possuíam suporte ao Gradle, de modo que tive que adicionar na mão.</p>
 
-<p>O grande problema dessa parte é : a estrutura de diretórios na qual a biblioteca está organizada em geral não é a padrão do Gradle, exatamente no caso do projeto original do Eclipse. Por exemplo, segue um snippet de como ficou o script para a biblioteca <a href="https://github.com/romannurik/Android-WizardPager">WizardPager</a>, do DevRel Roman Nurik, que estava estruturado como um projeto para build via Maven. </p>
+<p>O grande problema dessa parte é : a estrutura de diretórios na qual a biblioteca está organizada em geral não é a padrão do Gradle, exatamente no caso do projeto original do Eclipse. Por exemplo, segue um snippet de como ficou o script para a biblioteca <a href="https://github.com/romannurik/Android-WizardPager">WizardPager</a>, do DevRel Roman Nurik, que inclusive estava estruturado como um projeto para <em>build</em> via Maven. </p>
 
 <div><div class="CodeRay">
   <div class="code"><pre>buildscript {
@@ -519,9 +523,9 @@ Total time: 5.155 secs
   </li>
 </ol>
 
-<p>O erro do tipo (1) é questão de prática, paciência e cuidado para ser resolvido, e o procedimento de inspeção do <em>script</em> Gradle para cada módulo brevemente explicado na seção anterior pode ajudar.</p>
+<p>O erro do <strong>tipo (1)</strong> é questão de prática, paciência e cuidado para ser resolvido, e o procedimento de inspeção do <em>script</em> Gradle para cada módulo brevemente explicado na seção anterior pode ajudar.</p>
 
-<p>O erro do tipo (2) é infinitamente mais chato, afinal, no Eclipse conseguimos compilar mesmo com os <em>warnings</em> do Lint … </p>
+<p>O erro do <strong>tipo (2)</strong> é infinitamente mais chato, afinal, no Eclipse conseguimos compilar mesmo com os <em>warnings</em> do Lint … </p>
 
 <p>Para ignorá-los, você pode adicionar diretivas para que as tarefas de execução do Lint não sejam abortadas para o módulo de interesse : </p>
 
@@ -540,27 +544,25 @@ android {
 </div>
 </div>
 
-<p>Uma série de parâmetros para essa diretiva estão relacionados na <a href="http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Lint-support">documentação oficial</a>.</p>
+<p>Uma série de parâmetros para essa diretiva estão relacionados na <a href="http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Lint-support">documentação oficial</a>.Mas o ideal mesmo seria não precisar esquentar a cabeça com <em>warnings</em> do Lint nessa altura do campeonato …</p>
 
-<p>O ideal mesmo seria não precisar esquentar a cabeça com <em>warnings</em> do Lint…</p>
-
-<p>O erro do tipo (3) é também comum. Uma situação que eu peguei foram <em>imports</em> não utilizados que o Eclipse aparentemente ignora ao compilar, mas que na <em>build</em> via Gradle causam erro … :/</p>
+<p>O erro do <strong>tipo (3)</strong> é também comum. Uma situação que eu peguei foram <em>imports</em> não utilizados que o Eclipse aparentemente ignora ao compilar, mas que na <em>build</em> via Gradle causam erro … :/</p>
 
 <p>Uma outra situação possível seria você confiar em um <em>script</em> <strong>build.gradle</strong> já presente em um módulo de interesse e que aparentemente está em ordem, mas que faz uso do <strong>Java 7.0</strong> no processo de compilação, e esse eventualmente não está disponível como JDK na máquina (sim, há situações em que isso pode acontecer, <strong>AINDA</strong>!)</p>
 
-<p>O erro do tipo (4) pode ocorrer em diversos cenários. Um dos que eu gostaria de destacar é que o plugin do Gradle para o Android prevê uma <em>task</em> que, dentro das suas checagens, verifica se os <strong>9-patchs</strong> da aplicação estão bem formados; ou seja, você pode descobrir que alguns das imagens do seu projeto continham <em>bad patches</em> e a princípio vai precisar atualizá-las para que a <em>build</em> prossiga e para que o seu usuário não acha PNGs estranhos na sua aplicação …</p>
+<p>O erro do <strong>tipo (4)</strong> pode ocorrer em diversos cenários. Um dos que eu gostaria de destacar é que o plugin do Gradle para o Android prevê uma <em>task</em> que, dentro das suas checagens, verifica se os <strong>9-patchs</strong> da aplicação estão bem formados; ou seja, você pode descobrir que algumas das imagens do seu projeto continham <em>bad patches</em> e a princípio, precisaria atualizá-las para que a <em>build</em> prossiga (e para que o seu usuário não acha botões estranhos na sua aplicação) …</p>
 
 <h3 id="lies-aprendidas">Lições Aprendidas</h3>
 
 <p>Depois desse artigo enorme, deu para ver que dá um trabalho razoável migrar de forma transparente um projeto Android a princípio estruturado no ambiente do Eclipse para o ambiente do Gradle (e consequentemente do Android Studio).</p>
 
-<p>A opção <strong>“Generate Gradle Files”</strong>, acessível pelo Menu <strong>“Export…”</strong> do Eclipse se mostrou uma piada de mau-gosto na única vez em que tentei usá-la. Eu vou aconselhar a não confiar mais nela, pelo menos por enquanto.</p>
+<p>A opção <strong>“Generate Gradle Files”</strong>, acessível pelo Menu <strong>“Export…”</strong> do Eclipse se mostrou uma piada de mau-gosto nas vezes em que tentei usá-la. Eu aconselharia a não confiar mais nela, pelo menos por enquanto.</p>
 
 <p>O trabalho de levantamento de dependências e decisão sobre o que vai ainda permanecer como biblioteca/módulo da aplicação é entediante, porém importante. </p>
 
 <p>Ele será tanto mais longo quanto maior o número de dependências tratadas de qualquer jeito na filosofia de trabalho típica do Eclipse : arquivos <strong>.jar</strong> no diretórios <em>libs</em> e <em>Project Libraries</em> associados via Workspace… </p>
 
-<p>Quem já trabalhou em projetos em time ou mesmo projetos mais longos e sentiu os tipos de transtorno que isso causa implorava por uma boa solução, e isso explica por que tantos desenvolvedores confiaram por tanto tempo no <em>plugin</em> do Maven para Android … </p>
+<p>Quem já trabalhou em projetos em time ou mesmo projetos mais longos (e sentiu os tipos de transtorno que isso causa) implorava por uma boa solução, e isso explica por que tantos desenvolvedores confiaram por tanto tempo no <em>plugin</em> do Maven para Android … </p>
 
 <p>Os tempos são outros : agora temos o Gradle, uma ferramenta que se alinha com o estado da arte de como um sistema de <em>build</em> deve realmente ser nos dias de hoje. </p>
 
