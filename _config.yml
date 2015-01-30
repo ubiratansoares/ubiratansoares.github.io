@@ -1,0 +1,66 @@
+# SITE CONFIGURATION
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://ubiratansoares.github.io" # the base hostname & protocol for your site
+
+# THEME-SPECIFIC CONFIGURATION
+theme:
+  # Meta
+  title: Bira Tech Blog
+  avatar: bira.png
+  gravatar: # email md5 hash
+  description: "Toughts about programming, philosophy and others" # used by search engines
+
+  # Header and footer text
+  header_text: >
+     <h3>"Se vejo mais longe do que outros homens, é porque estou sobre os ombros de gigantes."</h3>
+     <p><i>-Sir Isaac Newton</i></p>
+  footer_text: >
+   Powered by <a href="http://jekyllrb.com">Jekyll</a>. Some rights reserved.
+
+  # Icons
+  rss: true
+  email_address: # full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  github: "ubiratansoares"
+  google_plus: "+UbiratanSoares"
+  instagram:
+  linkedin:  "https://br.linkedin.com/in/ubiratanfsoares"
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # full URL
+  steam:
+  tumblr:
+  twitter: "ubiratanfsoares"
+  wordpress:
+  youtube:
+
+  # Scripts
+  google_analytics: # tracking id, e.g. "UA-000000-01"
+  disqus_shortname:
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Próximo"
+  str_prev: "Anterior"
+  str_continue_reading: "Continuar Lendo"
+
+  # Colors, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed
