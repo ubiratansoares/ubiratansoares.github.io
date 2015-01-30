@@ -11,11 +11,9 @@ theme:
   description: "Toughts about programming, philosophy and others" # used by search engines
 
   # Header and footer text
-  header_text: >
-     <h3>"Se vejo mais longe do que outros homens, é porque estou sobre os ombros de gigantes."</h3>
-     <p><i>-Sir Isaac Newton</i></p>
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a>. Some rights reserved.
+     "Se vejo mais longe do que outros homens, é porque estou sobre os ombros de gigantes."
+     <p>- Sir Isaac Newton</p>
 
   # Icons
   rss: true
