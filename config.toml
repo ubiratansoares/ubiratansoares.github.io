@@ -35,6 +35,4 @@ cover = "images/cover-bw.jpg"
 post = "/:slug/"
 
 [sitemap]
-ChangeFreq = ""
-Filename = "sitemap.xml"
-Priority = "-1"
+DisableSitemap = true
