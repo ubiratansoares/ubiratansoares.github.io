@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://ubiratansoares.github.io/speaking/</loc>
+    <lastmod>2017-07-18T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ubiratansoares.github.io/about/</loc>
+    <lastmod>2017-07-18T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ubiratansoares.github.io/gdgsp-goodbye/</loc>
+    <lastmod>2017-07-17T22:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ubiratansoares.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ubiratansoares.github.io/post/</loc>
+    <lastmod>2017-07-17T22:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ubiratansoares.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ubiratansoares.github.io/</loc>
+    <lastmod>2017-07-18T22:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

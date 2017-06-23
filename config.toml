@@ -1,5 +1,5 @@
 publishDir = "."
-baseurl = "http://ubiratansoares.github.io"
+baseurl = "https://ubiratansoares.github.io/"
 copyright = "Some rights reserved - 2017"
 languagecode = "en-US"
 paginate = 5
@@ -35,4 +35,6 @@ cover = "images/cover-bw.jpg"
 post = "/:slug/"
 
 [sitemap]
-DisableSitemap = true
+ChangeFreq = ""
+Filename = "sitemap.xml"
+Priority = "-1"
