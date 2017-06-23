@@ -1,3 +1,4 @@
+publishDir = "."
 baseurl = "https://ubiratansoares.github.io/"
 copyright = "Some rights reserved - 2017"
 languagecode = "en-US"
@@ -32,3 +33,5 @@ logo = "images/logo.png"
 cover = "images/cover-bw.jpg"
 [permalinks]
 post = "/:slug/"
+
+disableSitemap = true
