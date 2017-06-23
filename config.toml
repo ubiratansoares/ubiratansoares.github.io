@@ -1,4 +1,4 @@
-publishDir = "docs"
+publishDir = "."
 baseurl = "http://ubiratansoares.github.io"
 copyright = "Some rights reserved - 2017"
 languagecode = "en-US"
