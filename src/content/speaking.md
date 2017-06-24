@@ -62,7 +62,7 @@ Oferecida nos seguintes eventos
 #### Escaping from the Framework guided by Clean Architecture 
 
 [Slides](https://speakerdeck.com/ubiratansoares/escaping-from-the-framework)
-[Vídeo](https://www.youtube.com/watch?v=4dUKiggwHPM)
+[Video](https://www.youtube.com/watch?v=4dUKiggwHPM)
 
 Apresentação sobre fundamentos de DDD na leitura de arquiteura limpa by Uncle Bob Martim, aplicavéis para aplicações móveis ou mesmo outros contextos.
 
@@ -77,7 +77,7 @@ Oferecida nos seguintes eventos
 #### Refactoring for RxJava
 
 [Slides](https://speakerdeck.com/ubiratansoares/refactoring-for-rxjava)
-[Vídeo](https://www.youtube.com/watch?v=391H38-7JYk)
+[Video](https://www.youtube.com/watch?v=391H38-7JYk)
 
 Apresentação sobre *quick wins* simples ao refatorar código para usar RxJava
 
@@ -91,7 +91,7 @@ Oferecida nos seguintes eventos
 #### Programação Reativa Funcional com RxJava
 
 [Slides](https://speakerdeck.com/ubiratansoares/rxjava-for-android)
-[Vídeo](https://www.youtube.com/watch?v=0FpphC6hL5I)
+[Video](https://www.youtube.com/watch?v=0FpphC6hL5I)
 [Código](https://github.com/opensanca/rxjava-workshop)
 
 Apresentação sobre fundamentos e conceitos de programação reativa funcional com RxJava, Java8 e Android, incluindo exemplos práticos
