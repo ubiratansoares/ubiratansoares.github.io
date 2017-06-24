@@ -13,13 +13,14 @@ weight = 112
 
 ## // Next
 
-- GDG-SP Android Meetup #49
-- The Developers Conference / Trilha Android
-- ICMC/USP Semcomp 20 
-- Android DevConference 2017
-- GDG Devfest Cerrado 2017
+- **GDG-SP Android Meetup #49** (julho/2017)
+- **The Developers Conference / Trilha Android** (julho/2017)
+- **ICMC/USP Semcomp 20** (agosto/2017)
+- **Android DevConference 2017** (agosto/2017)
+- **GDG Devfest Cerrado 2017** (setembro/2017)
+- **GDG Devfest Campinas 2017** (novembro/2017)  
 
-## // Timeline
+## // Timeline  
 
 No distante ano de 2012, já atuando no mercado como Engenherio de Software, eu decidi que podia arriscar um pequena palestra (apenas 15 minutos) no [The Developers Conference](http://www.thedevelopersconference.com.br/). Apesar de alguma experiência como instrutor e alguma segurança como orador, eu tinha muitos receios sobre falar para pessoas que saberiam muito mais sobre o assunto do que eu ... 
 
@@ -155,8 +156,8 @@ Apresentação framework da Intel para detecção de informações contextuais d
 
 Oferecida nos seguintes eventos
 
-- Intel Software Day Salvador (2015)
-- GDG-SP Android Meetup (2015)
+- Intel Software Day Salvador (junho/2015)
+- GDG-SP Android Meetup (março/2015)
 
 ---
 
@@ -209,9 +210,8 @@ Considerações gerais sobre dicas de performance em aplicações Android
 
 Oferecida nos seguintes eventos
 
-- Intel Software Day (2013) 
-- GDG-SP Android Meetup (2013)
-- GDG-SP DevFest (2013)
+- Intel Software Day (outubro/2013) 
+- GDG-SP DevFest (novembro/2013)
 
 ---
 
@@ -224,7 +224,19 @@ Considerações gerais sobre o impacto do uso de hamburguer menu em aplicações
 Oferecida nos seguintes eventos
 
 - The Developers Conference / Trilha Android (julho/2013) 
-- GDG-SP Android Meetup (2013)
+- GDG-SP Android Meetup (outubro/2013)
+
+---
+
+#### Volley
+ 
+[Slides](https://speakerdeck.com/ubiratansoares/volley)
+
+Uma introdução ao Volley, framework desenvolvido pelo time do Google Play para consumo de REST APIs e facilidades com carregamento de imagens no Android
+
+Oferecida nos seguintes eventos
+
+- GDG-SP Android Meetup (agosto/2013)
 
 ---
 
