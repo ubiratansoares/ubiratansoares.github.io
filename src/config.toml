@@ -1,4 +1,4 @@
-publishDir = "."
+publishDir = ".."
 baseurl = "https://ubiratansoares.github.io/"
 copyright = "Some rights reserved - 2017"
 languagecode = "en-US"
@@ -27,6 +27,7 @@ description = "Opiniões sobre tecnologia, desenvolvimento de software e mais"
 githubName = "ubiratansoares"
 twitterName = "ubiratansoares"
 linkedinName = "ubiratanfsoares"
+googleAnalyticsUserID = "UA-17404026-1"
 googleAnalyticsUserID = ""
 hideHUGOSupport = true
 logo = "images/logo.png"
@@ -34,4 +35,7 @@ cover = "images/cover-bw.jpg"
 [permalinks]
 post = "/:slug/"
 
-disableSitemap = true
+[sitemap]
+ChangeFreq = ""
+Filename = "sitemap.xml"
+Priority = "-1"
