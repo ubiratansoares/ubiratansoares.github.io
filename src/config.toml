@@ -21,7 +21,7 @@ weight = 101
 [params]
 author = "Ubiratan Soares"
 authorlocation = "São Paulo, Brasil"
-authorwebsite = "http://ubiratansoares.github.io"
+authorwebsite = "https://ubiratansoares.github.io"
 bio = "Software Engineer. Curious guy."
 description = "Opiniões sobre tecnologia, desenvolvimento de software e mais"
 githubName = "ubiratansoares"

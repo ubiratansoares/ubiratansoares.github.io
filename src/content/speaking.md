@@ -11,7 +11,7 @@ image = "../images/speaking-cover.jpg"
 weight = 112
 +++
 
-## // Next
+## // Próximas Contribuições
 
 - **GDG-SP Android Meetup #49** (julho/2017)
 - **The Developers Conference / Trilha Android** (julho/2017)
@@ -55,7 +55,6 @@ Apresentação sobre como aplicar técnicas de programação reativa funcional a
 Oferecida nos seguintes eventos
 
 - QCon São Paulo (2017)
-- GDG-SP Android Meetup #49 (2017)
 
 ---
 
@@ -143,7 +142,7 @@ Apresentação reflexiva sobre aspectos da profissão e atuação em desenvolvim
 
 Oferecida nos seguintes eventos
 
-- SIMTECC USTJ (setembro/2015)
+- SIMTECC USJT (setembro/2015)
 - Hackathon FIESP (maio/2015)
 
 ---
@@ -232,7 +231,7 @@ Oferecida nos seguintes eventos
  
 [Slides](https://speakerdeck.com/ubiratansoares/volley)
 
-Uma introdução ao Volley, framework desenvolvido pelo time do Google Play para consumo de REST APIs e facilidades com carregamento de imagens no Android
+Uma introdução ao Volley, *framework* desenvolvido pelo time do Google Play para consumo de REST APIs e facilidades com carregamento de imagens no Android
 
 Oferecida nos seguintes eventos
 
