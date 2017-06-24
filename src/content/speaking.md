@@ -247,9 +247,22 @@ Slides de apoio para o minicurso de introdução ao Android que desenhei com foc
 
 Oferecida nos seguintes eventos
 
-- GDG-SP Study Jams (2016)
+- ICMC/USP Semcomp 17 (2014)
+- ICMC/USP Semcomp 16 (2013)
 - EACH/USP Semana da computação (2015)
 - Workshop especial USJT (2015)
 - ICMC/USP Semcomp 18 (2015)
-- ICMC/USP Semcomp 17 (2014)
-- ICMC/USP Semcomp 16 (2013)
+- GDG-SP Study Jams (2016)
+
+---
+
+#### Descomplicando ORM no Android com ORMan
+ 
+[Slides](https://speakerdeck.com/ubiratansoares/descomplicando-orm-no-android-com-orman)
+
+Uma introdução ao microframework de persistência ORMan, para Android e Java.
+
+Oferecida nos seguintes eventos
+
+- The Developers Conference / Trilha Android (julho/2012)
+- GDG-SP DevFest (dezembro/2012)
