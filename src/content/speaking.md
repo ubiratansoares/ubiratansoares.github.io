@@ -11,16 +11,19 @@ image = "../images/speaking-cover.jpg"
 weight = 112
 +++
 
-## // Próximas Contribuições
+</br>
+### Próximas Contribuições
+
 
 - **GDG-SP Android Meetup #49** (julho/2017)
 - **The Developers Conference / Trilha Android** (julho/2017)
 - **ICMC/USP Semcomp 20** (agosto/2017)
 - **Android DevConference 2017** (agosto/2017)
 - **GDG Devfest Cerrado 2017** (setembro/2017)
-- **GDG Devfest Campinas 2017** (novembro/2017)  
+- **GDG Devfest Campinas 2017** (novembro/2017)
 
-## // Timeline  
+</br>
+### Timeline  
 
 No distante ano de 2012, já atuando no mercado como Engenherio de Software, eu decidi que podia arriscar um pequena palestra (apenas 15 minutos) no [The Developers Conference](http://www.thedevelopersconference.com.br/). Apesar de alguma experiência como instrutor e alguma segurança como orador, eu tinha muitos receios sobre falar para pessoas que saberiam muito mais sobre o assunto do que eu ... 
 
