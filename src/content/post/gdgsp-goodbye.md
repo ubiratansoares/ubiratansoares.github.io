@@ -33,6 +33,6 @@ Gostaria de agradecer também ao pessoal do Google : Alê, Papo e Neto, que depo
 
 E por fim, gostaria de agradecer a todos os organizadores atuais, mais novos e mais antigos, Benedito, Thu, Fernando, Paula, Chris, Eli e Léo, e mesmo ex-membros por toda a parceria, toda a paciência, e acima de tudo, pela amizade.
 
-O tempo não pára, e agora em julho tem uma nova edição do Android Meetup na Concrete Solutions. Eu estarei lá, fazendo o meu melhor e aprendendo bastante, como sempre. 
+O tempo não pára, e agora em julho tem um [novo encontro](https://www.meetup.com/GDG-SP/events/240951370/) do Android Meetup na Concrete Solutions. Eu estarei lá, fazendo o meu melhor e aprendendo bastante, como sempre. 
 
 E você? :)
