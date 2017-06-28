@@ -9,7 +9,7 @@ image = "../images/post-gdg-goodbye-cover.jpg"
 
 No sábado do dia 10 de junho de 2017, eu conduzi meu último evento como organizador *de facto* do Google Developers Group de São Paulo. Foi a edição número #48 - especial de quatro anos !!! - do Android Meetup, possivelmente o mais antigo evento recorrente de Android do país.
 
-Eu conheci o GDG-SP em 2012, no encontro número #02 do Android Meetup. No encontro #06 dei minha primeira palestra nesse grupo (sobre ViewPagers, e quem viu, lembra da discórdia instaurada, rsrs). No final de 2014 em me tornei organizador, e agora, em junho de 2017, eu encerro meu mandato passando a vez para um novo grupo de pessoas, escolhidas a dedo na comunidade, com muito mais gás, idéias, pique e principalmente, *tempo* para liderar as atividades do grupo do que esse que vos escreve ... #sadpanda
+Eu conheci o GDG-SP em 2012, no encontro número #02 do Android Meetup. No encontro #06 dei minha primeira palestra nesse grupo (sobre ViewPagers, e quem viu, lembra da discórdia instaurada, rsrs). No final de 2014 eu me tornei organizador, e agora, em junho de 2017, eu encerro meu mandato passando a vez para um novo grupo de pessoas, escolhidas a dedo na comunidade, com muito mais gás, idéias, pique e principalmente, *tempo* para liderar as atividades do grupo do que esse que vos escreve ... #sadpanda
 
 Sim, tempo é o motivo *principal* - e eu diria, quase que único - para eu ter me _planejado_ para não ser mais organizador de eventos do GDG-SP, em uma transição o mais orgânica o possível.
 
