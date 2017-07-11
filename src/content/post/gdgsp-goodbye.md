@@ -1,5 +1,5 @@
 +++
-date = "2017-07-17T22:00:00+02:00"
+date = "2017-06-17T22:00:00+02:00"
 draft = false
 slug = "gdgsp-goodbye"
 title = "Uma despedida, ou quase isso"

@@ -14,7 +14,6 @@ weight = 112
 </br>
 ### Próximas Contribuições
 
-
 - **The Developers Conference / Trilha Android** (julho/2017)
 - **ICMC/USP Semcomp 20** (agosto/2017)
 - **Android DevConference 2017** (agosto/2017)
