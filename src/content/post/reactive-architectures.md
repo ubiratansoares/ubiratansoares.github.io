@@ -3,7 +3,7 @@ date = "2017-07-10T22:00:00+02:00"
 draft = false
 slug = "reactive-architectures"
 title = "Notas sobre arquiteturas reativas"
-image = "../images/rxlayers.jpg"
+image = "../images/rxarchitecture.jpg"
 +++
 
 
