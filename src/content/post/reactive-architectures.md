@@ -20,7 +20,7 @@ Se você explorar **Reactive Architectures Playground** você verá na prática
 - Como manipular diversos comportamentos segregados pode ser mais fácil através da decomposição de operações funcionais coordenadas no *pipeline de apresentação*
 - Como construir 100% dos objetos importantes das camadas com *Dependency Injection*, explorando algumas das novas APIs introduzidas nos últimos dois meses na Dagger2, [específicas para Android](https://github.com/google/dagger/releases/tag/dagger-2.11). Tem exemplo de como desacoplar o uso de **Context** inclusive, para traduzir *ViewsModels* segundo uma lógica específica de formatação
 - Como aplicar testes de unidade de forma efetiva de acordo com o propósito de cada classe, no nível de unidade + documentação; unidade + verificação e unidade + integração, usando as APIs de teste próprias do RxJava2, além Mockito2 e Roboletric, que testam desde a integração com rede até o nível da Activity (são quase 60 testes !!)
-- Como utilizar **LifecycleOwner** e **LifecyclerObserver** para criar *Presenters* que não precisam mais de APIs ao estilo **_attach()_** e **_detach()_** por motivos de ciclo-de-vida / *memory leaks* em Activities e Fragments 
+- Como utilizar **LifecycleOwner** e **LifecycleObserver** para criar *Presenters* que não precisam mais de APIs ao estilo **_attach()_** e **_detach()_** por motivos de ciclo-de-vida / *memory leaks* em Activities e Fragments 
 - Outras surpresas que você pode pode conferir no código-fonte
 
 Não é nada de espetacular, eu sei, mas deve ajudar a sanar a dúvida de muita gente :)
