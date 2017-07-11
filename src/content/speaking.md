@@ -15,7 +15,6 @@ weight = 112
 ### Próximas Contribuições
 
 
-- **GDG-SP Android Meetup #49** (julho/2017)
 - **The Developers Conference / Trilha Android** (julho/2017)
 - **ICMC/USP Semcomp 20** (agosto/2017)
 - **Android DevConference 2017** (agosto/2017)
@@ -52,12 +51,14 @@ Se você é dono de uma empresa e gostaria que eu expandisse algum dos tópicos 
 #### Evoluindo Arquiteturas Reativas 
 
 [Slides](https://speakerdeck.com/ubiratansoares/evoluindo-arquiteturas-reativas)
+[Video](https://www.youtube.com/watch?v=SjxVp9ElvAY)
 
 Apresentação sobre como aplicar técnicas de programação reativa funcional aos principais paradigmas de arquitetura que orientam o desenvolvimento para aplicações Android / mobile, como Model-View-Presenter, Clean Architecture e outras dividas em camadas, mostrando como decisões podem ser tomadas de forma incremental na adoção dessas técnicas.
 
 Oferecida nos seguintes eventos
 
-- QCon São Paulo (2017)
+- QCon São Paulo (abril/2017)
+- GDG-SP Android Meetup #49 (julho/2017)
 
 ---
 
