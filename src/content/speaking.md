@@ -14,9 +14,10 @@ weight = 112
 </br>
 ### Próximas Contribuições
 
-- **The Developers Conference / Trilha Android** (julho/2017)
+- **Androidos Day 2017** (agosto/2017)
 - **ICMC/USP Semcomp 20** (agosto/2017)
 - **Android DevConference 2017** (agosto/2017)
+- **GDG Devfest Macéio 2017** (setembro/2017)
 - **GDG Devfest Cerrado 2017** (setembro/2017)
 - **GDG Devfest Campinas 2017** (novembro/2017)
 
@@ -58,6 +59,7 @@ Oferecida nos seguintes eventos
 
 - QCon São Paulo (abril/2017)
 - GDG-SP Android Meetup #49 (julho/2017)
+- The Developers Conference / Trilha Android (julho/2017)
 
 ---
 
