@@ -14,9 +14,8 @@ weight = 112
 </br>
 ### Próximas Contribuições
 
-- **Androidos Day 2017** (agosto/2017)
-- **ICMC/USP Semcomp 20** (agosto/2017)
 - **Android DevConference 2017** (agosto/2017)
+- **iMasters 7 Master - Firebase** (agosto/2017)
 - **GDG Devfest Macéio 2017** (setembro/2017)
 - **GDG Devfest Cerrado 2017** (setembro/2017)
 - **GDG Devfest Campinas 2017** (novembro/2017)
@@ -72,6 +71,7 @@ Apresentação sobre fundamentos de DDD na leitura de arquiteura limpa by Uncle 
 
 Oferecida nos seguintes eventos
 
+- ICMC/USP Semcomp 20 (agosto/2017)
 - OpenSanca DevConf (maio/2017)
 - GDG-SP Devfest Season (novembro/2016)
 - iMasters Intercon (setembro/2016)
