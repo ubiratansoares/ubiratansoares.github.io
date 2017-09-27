@@ -14,11 +14,10 @@ weight = 112
 </br>
 ### Próximas Contribuições
 
-- **Android DevConference 2017** (agosto/2017)
-- **iMasters 7 Master - Firebase** (agosto/2017)
-- **GDG Devfest Macéio 2017** (setembro/2017)
 - **GDG Devfest Cerrado 2017** (setembro/2017)
+- **iMasters Intercon 2017** (outubro/2017)
 - **GDG Devfest Campinas 2017** (novembro/2017)
+- **GDG Devfest Maringá 2017** (novembro/2017)
 
 </br>
 ### Timeline  
@@ -44,6 +43,43 @@ Se você é membro de uma comunidade de tecnologia ou universidade e gostaria de
 Entre em contato comigo via Twitter e vamos conversar!
 
 Se você é dono de uma empresa e gostaria que eu expandisse algum dos tópicos abaixo (ou mesmo outros!) para algum dos seus times de desenvolvimento, entre em contato comigo via LinkedIn.
+
+---
+
+#### Ready to Production - Testing your Android App
+
+[Slides](https://speakerdeck.com/ubiratansoares/ready-to-production-testing-your-android-app)
+
+Apresentação sobre uma visão geral estratégias de teste para Android, com exemplos práticos guiados por arquitetura limpa e reativa
+
+Oferecida nos seguintes eventos
+
+- AndroidosDay 2017
+- GDG Devfest Maceió 2017
+
+---
+
+#### Remote Config ProTips
+
+[Slides](https://speakerdeck.com/ubiratansoares/firebase-remote-config-pro-tips)
+
+Apresentação sobre dicas do RemoteConfig, *feature-flag* engine da suíte Firebase.
+
+Oferecida nos seguintes eventos
+
+- iMasters SevenMasters Firebase Edition (2017)
+
+---
+
+#### Exploring GraphQL on Android with Apollo
+
+[Slides](https://speakerdeck.com/ubiratansoares/exploring-graphql-on-android-with-apollo)
+
+Apresentação sobre conceitos de GraphQL e como integrar com esse tipo de API no Android utilizando o cliente open-source Apollo
+
+Oferecida nos seguintes eventos
+
+- Android DevConference 2017
 
 ---
 
