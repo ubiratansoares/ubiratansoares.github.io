@@ -14,17 +14,16 @@ weight = 112
 </br>
 ### Próximas Contribuições
 
-- **GDG Devfest Cerrado 2017** (setembro/2017)
-- **iMasters Intercon 2017** (outubro/2017)
 - **GDG Devfest Campinas 2017** (novembro/2017)
 - **GDG Devfest Maringá 2017** (novembro/2017)
 
 </br>
+
 ### Timeline  
 
 No distante ano de 2012, já atuando no mercado como Engenherio de Software, eu decidi que podia arriscar um pequena palestra (apenas 15 minutos) no [The Developers Conference](http://www.thedevelopersconference.com.br/). Apesar de alguma experiência como instrutor e alguma segurança como orador, eu tinha muitos receios sobre falar para pessoas que saberiam muito mais sobre o assunto do que eu ... 
 
-A vontade de retomar as "aulas" era forte, e eu fui mesmo assim. Com certeza, foi algo que mudou minha carreira. *"O fracasso está na falta de tentar, e não no errar"* me disse a sabedoria a Internet; mesmo não tendo ido tão bem como eu gostaria naquela ocasião, eu continuei a submeter e oferecer palestras para vários dos principais eventos de tecnologia que ocorrem no país. Desde então, foram mais de 40 participações, e subindo!
+A vontade de retomar as "aulas" era forte, e eu fui mesmo assim. Com certeza, foi algo que mudou minha carreira. *"O fracasso está na falta de tentar, e não no errar"* me disse a sabedoria a Internet; mesmo não tendo ido tão bem como eu gostaria naquela ocasião, eu continuei a submeter e oferecer palestras para vários dos principais eventos de tecnologia que ocorrem no país. Desde então, foram mais de 50 participações, e subindo!
 
 Alguns pensarão que eu já devo estar rico a essa altura do campeonato, mas acreditem amigos : apenas ex-presidentes ganham USD 200.000 para maltratar o português em público. Nós, devs mortais, o fazemos principalmente pois 
 
@@ -71,15 +70,17 @@ Oferecida nos seguintes eventos
 
 ---
 
-#### Exploring GraphQL on Android with Apollo
+#### Exploring GraphQL on Android with Apollo 
 
 [Slides](https://speakerdeck.com/ubiratansoares/exploring-graphql-on-android-with-apollo)
+[Video](https://www.youtube.com/watch?v=9R_1N3SI_6k)
 
-Apresentação sobre conceitos de GraphQL e como integrar com esse tipo de API no Android utilizando o cliente open-source Apollo
+Apresentação sobre conceitos de GraphQL e como integrar com esse tipo de API no Android utilizando o cliente open-source Apollo.
 
 Oferecida nos seguintes eventos
 
 - Android DevConference 2017
+- iMasters Intercon 2017
 
 ---
 
@@ -107,9 +108,10 @@ Apresentação sobre fundamentos de DDD na leitura de arquiteura limpa by Uncle 
 
 Oferecida nos seguintes eventos
 
+- GDG Devfest Cerrado (setembro/2017)
 - ICMC/USP Semcomp 20 (agosto/2017)
 - OpenSanca DevConf (maio/2017)
-- GDG-SP Devfest Season (novembro/2016)
+- GDG Devfest São Paulo (novembro/2016)
 - iMasters Intercon (setembro/2016)
 
 ---
