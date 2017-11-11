@@ -11,11 +11,6 @@ image = "../images/speaking-cover.jpg"
 weight = 112
 +++
 
-</br>
-### Próximas Contribuições
-
-- **GDG Devfest Campinas 2017** (novembro/2017)
-- **GDG Devfest Maringá 2017** (novembro/2017)
 
 </br>
 
