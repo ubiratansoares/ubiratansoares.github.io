@@ -45,6 +45,20 @@ Se você é dono de uma empresa e gostaria que eu expandisse algum dos tópicos 
 
 ---
 
+#### Architecture Components Distilled
+
+[Slides](https://speakerdeck.com/ubiratansoares/architecture-components-distilled)
+[Video](https://www.youtube.com/watch?v=ruMBDltozEI)
+
+Apresentação sobre uma visão geral estratégias de teste para Android, com exemplos práticos guiados por arquitetura limpa e reativa
+
+Oferecida nos seguintes eventos
+
+- GDGSP Android Meetup #53 (Novembro/2017)
+- GDG Devfest Paraná 2017 (Novembro/2017)
+
+---
+
 #### Ready to Production - Testing your Android App
 
 [Slides](https://speakerdeck.com/ubiratansoares/ready-to-production-testing-your-android-app)
@@ -53,8 +67,8 @@ Apresentação sobre uma visão geral estratégias de teste para Android, com ex
 
 Oferecida nos seguintes eventos
 
-- AndroidosDay 2017
-- GDG Devfest Maceió 2017
+- AndroidosDay 2017 (Julho / 2017)
+- GDG Devfest Maceió 2017 (Setembro / 2017)
 
 ---
 
@@ -66,7 +80,7 @@ Apresentação sobre dicas do RemoteConfig, *feature-flag* engine da suíte Fire
 
 Oferecida nos seguintes eventos
 
-- iMasters SevenMasters Firebase Edition (2017)
+- iMasters SevenMasters Firebase Edition (Outubro / 2017)
 
 ---
 
@@ -79,8 +93,8 @@ Apresentação sobre conceitos de GraphQL e como integrar com esse tipo de API n
 
 Oferecida nos seguintes eventos
 
-- Android DevConference 2017
-- iMasters Intercon 2017
+- Android DevConference 2017 (Agosto / 2017)
+- iMasters Intercon 2017 (Outubro / 2017)
 
 ---
 
@@ -96,6 +110,7 @@ Oferecida nos seguintes eventos
 - QCon São Paulo (abril/2017)
 - GDG-SP Android Meetup #49 (julho/2017)
 - The Developers Conference / Trilha Android (julho/2017)
+- GDG Devfest Campinas 2017 (Novembro/2017)
 
 ---
 
