@@ -45,7 +45,7 @@ Se você é dono de uma empresa e gostaria que eu expandisse algum dos tópicos 
 [Slides](https://speakerdeck.com/ubiratansoares/architecture-components-distilled)
 [Video](https://www.youtube.com/watch?v=ruMBDltozEI)
 
-Apresentação sobre uma visão geral estratégias de teste para Android, com exemplos práticos guiados por arquitetura limpa e reativa
+Apresentação sobre fundamentos e dicas práticas sobre três das novas APIs do Android Architecture Components : Lifecycles, ViewModel e LiveData!
 
 Oferecida nos seguintes eventos
 
