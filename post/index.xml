@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ubiratan Soares</title>
-    <link>https://ubiratansoares.github.io/post/</link>
+    <link>http://ubiratansoares.github.io/post/</link>
     <description>Recent content in Posts on Ubiratan Soares</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 17 Jun 2017 22:00:00 +0200</lastBuildDate>
     
-	<atom:link href="https://ubiratansoares.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ubiratansoares.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Uma despedida, ou quase isso</title>
-      <link>https://ubiratansoares.github.io/post/gdgsp-goodbye/</link>
+      <link>http://ubiratansoares.github.io/post/gdgsp-goodbye/</link>
       <pubDate>Sat, 17 Jun 2017 22:00:00 +0200</pubDate>
       
-      <guid>https://ubiratansoares.github.io/post/gdgsp-goodbye/</guid>
+      <guid>http://ubiratansoares.github.io/post/gdgsp-goodbye/</guid>
       <description>&lt;p&gt;No sábado do dia 10 de junho de 2017, eu conduzi meu último evento como organizador &lt;em&gt;de facto&lt;/em&gt; do Google Developers Group de São Paulo. Foi a edição número #48 - especial de quatro anos !!! - do Android Meetup, possivelmente o mais antigo evento recorrente de Android do país.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
