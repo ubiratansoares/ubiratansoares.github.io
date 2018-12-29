@@ -5,51 +5,42 @@
     <link>https://ubiratansoares.github.io/</link>
     <description>Recent content on Ubiratan Soares</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Some rights reserved - 2017</copyright>
-    <lastBuildDate>Tue, 18 Jul 2017 22:00:00 +0000</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ubiratansoares.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Palestras</title>
-      <link>https://ubiratansoares.github.io/speaking/</link>
-      <pubDate>Tue, 18 Jul 2017 22:00:00 +0000</pubDate>
+      <title>Talks</title>
+      <link>https://ubiratansoares.github.io/talks/</link>
+      <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ubiratansoares.github.io/speaking/</guid>
+      <guid>https://ubiratansoares.github.io/talks/</guid>
       <description>Timeline No distante ano de 2012, já atuando no mercado como Engenherio de Software, eu decidi que podia arriscar um pequena palestra (apenas 15 minutos) no The Developers Conference. Apesar de alguma experiência como instrutor e alguma segurança como orador, eu tinha muitos receios sobre falar para pessoas que saberiam muito mais sobre o assunto do que eu &amp;hellip;
 A vontade de retomar as &amp;ldquo;aulas&amp;rdquo; era forte, e eu fui mesmo assim.</description>
     </item>
     
     <item>
-      <title>Um pouco sobre mim</title>
+      <title>About</title>
       <link>https://ubiratansoares.github.io/about/</link>
-      <pubDate>Tue, 18 Jul 2017 22:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ubiratansoares.github.io/about/</guid>
       <description>TL;DR
-Paulistano da gema, pai de um lindo menino, das exatas desde a adolescência, engenheiro de software nos dias atuais.  Minha curiosidade sobre o funcionamento dos computadores começou lá atrás, quando o hard disk do meu primeiro computador simplesmente pifou. Eu tinha por volta de uns 12 anos e não conseguia aceitar que possivelmente, ali, no português que morava na mesma rua que eu, eu estava sendo passado para trás na hora de ter um orçamento do conserto.</description>
-    </item>
-    
-    <item>
-      <title>Notas sobre arquiteturas reativas</title>
-      <link>https://ubiratansoares.github.io/reactive-architectures/</link>
-      <pubDate>Mon, 10 Jul 2017 22:00:00 +0200</pubDate>
-      
-      <guid>https://ubiratansoares.github.io/reactive-architectures/</guid>
-      <description>Na edição desse ano da QCONSP eu tive a oportunidade de pincelar um pouco sobre o que aprendi ao longo do último ano no tocante à exploração de padrões para arquitetura de responsabilidades em apps mobile, empoderados por programação reativa funcional (tipicamente com RxJava no contexto do Android). Adicionalmente, uma extensão dessas idéias agora é tema de alguns próximos encontros, e um compilado das discussões está nos slides associados.
-Como parte das contribuições que ainda cabem nesse assunto, resolvi construir e publicar um pequeno sample que ilustra alguns conceitos interessantes do modelo de arquitetura que tenho seguido principalmente ao longo do último ano.</description>
+Minha curiosidade sobre o funcionamento dos computadores começou lá atrás, quando o hard disk do meu primeiro computador simplesmente pifou. Eu tinha por volta de uns 12 anos e não conseguia aceitar que possivelmente, ali, no português que morava na mesma rua que eu, eu estava sendo passado para trás na hora de ter um orçamento do conserto.
+Essa insatisfação em aceitar dogmas por falta de embasamento técnico talvez tenha se manifestado a primeira vez nesse dia, mas se agravou com algumas situações da minha tranquila juventude &amp;hellip; Desde não entender o que acontecia quando eu precisava usar vários disquetes (!</description>
     </item>
     
     <item>
       <title>Uma despedida, ou quase isso</title>
-      <link>https://ubiratansoares.github.io/gdgsp-goodbye/</link>
+      <link>https://ubiratansoares.github.io/post/gdgsp-goodbye/</link>
       <pubDate>Sat, 17 Jun 2017 22:00:00 +0200</pubDate>
       
-      <guid>https://ubiratansoares.github.io/gdgsp-goodbye/</guid>
-      <description>No sábado do dia 10 de junho de 2017, eu conduzi meu último evento como organizador de facto do Google Developers Group de São Paulo. Foi a edição número #48 - especial de quatro anos !!! - do Android Meetup, possivelmente o mais antigo evento recorrente de Android do país.
-Eu conheci o GDG-SP em 2012, no encontro número #02 do Android Meetup. No encontro #06 dei minha primeira palestra nesse grupo (sobre ViewPagers, e quem viu, lembra da discórdia instaurada, rsrs).</description>
+      <guid>https://ubiratansoares.github.io/post/gdgsp-goodbye/</guid>
+      <description>&lt;p&gt;No sábado do dia 10 de junho de 2017, eu conduzi meu último evento como organizador &lt;em&gt;de facto&lt;/em&gt; do Google Developers Group de São Paulo. Foi a edição número #48 - especial de quatro anos !!! - do Android Meetup, possivelmente o mais antigo evento recorrente de Android do país.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
