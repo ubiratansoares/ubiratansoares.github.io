@@ -6,10 +6,19 @@
     <description>Recent content on Ubiratan Soares</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ubiratansoares.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://ubiratansoares.github.io/about/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubiratansoares.github.io/about/</guid>
+      <description>My very first interest on computers dates from my teenage years, when the hard drive from my first PC died. I was 12 years old, and while trying to get some fix to my computer, I felt myself ashmed because someone told me that &amp;ldquo;the issue is the hard drive and the fix will cost you this amount&amp;rdquo; and I could not do anything about it &amp;hellip; because I did not know what a &amp;ldquo;Hard Drive&amp;rdquo; were or meant &amp;hellip;</description>
+    </item>
     
     <item>
       <title>Talks</title>
@@ -19,15 +28,6 @@
       <guid>https://ubiratansoares.github.io/talks/</guid>
       <description>In the year of 2012, I was already working professionaly with Software development for a while and I decided that I could try a lightning talk - only 15 terrifying minutes !!! - at The Developers Conference, one of the largest software development conferences hosted in Brazil.
 It would be my first public talk about software development; and besides the fact I worked as a partial time teacher before, I was really scared to present something in public, eventually facing people that knew so much more than me on the chosen topic &amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://ubiratansoares.github.io/about/</link>
-      <pubDate>Mon, 23 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ubiratansoares.github.io/about/</guid>
-      <description>My very first interest on computers dates from my teenage years, when the hard drive from my first PC died. I was 12 years old, and while trying to get some fix to my computer, I felt myself ashmed because someone told me that &amp;ldquo;the issue is the hard drive and the fix will cost you this amount&amp;rdquo; and I could not do anything about it &amp;hellip; because I did not know what a &amp;ldquo;Hard Drive&amp;rdquo; were or meant &amp;hellip;</description>
     </item>
     
     <item>
