@@ -1,6 +1,6 @@
 # Ubiratan Soares Blog
 
-Repo for my personal blog, powered by Hugo static site engine. See it [here](http://ubiratansoares.github.io)
+Repo for my personal blog content. See it [here](http://ubiratansoares.github.io)
 
 ## License
 ```
