@@ -1,6 +1,4 @@
-# Ubiratan Soares Blog
-
-Repo for my personal blog code, powered by Hugo static site engine and hosted on Github. See it [here](http://ubiratansoares.github.io)
+Hosting for my personal blog static site.
 
 ## License
 ```
