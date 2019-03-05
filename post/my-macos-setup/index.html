@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>My MacOS setup for Software Development&middot; Ubiratan Soares</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Ubiratan Soares">
+	<meta name="description" content="Ubiratan Soares">
+	<meta name="keywords" content="blog,software,engineering">
+	<meta name="generator" content="Hugo 0.54.0" />
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://ubiratansoares.github.io/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="https://ubiratansoares.github.io/favicon.ico" type="image/x-icon">
+
+	<!-- RSS -->
+	
+
+	<!-- Font Awesome -->
+	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+	<header class="site-header">
+	<div class="branding">
+		<a href="https://ubiratansoares.github.io/">
+		<img class="avatar" src="https://ubiratansoares.github.io/images/dotanuki-logo.png" alt=""/>
+		</a>
+		<h1 class="site-title">
+			<a href="https://ubiratansoares.github.io/">Ubiratan Soares</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			<li><a href="/about/">  About </a></li><li><a href="/talks/">  •  Talks </a></li>
+
+
+		</ul>
+	</nav>
+</header>
+
+
+	<div class="content">
+	<article>
+		<header>
+			<h1 class="title">My MacOS setup for Software Development</h1>
+			<p class="meta">
+	March 3, 2019 &middot; 10 minute read
+
+	
+</p>
+
+		</header>
+
+		<section class="post-content">
+			<p>I&rsquo;ve been a MacOS user since 2009 when I had the chance to buy my very first MacBook Pro. Despite I&rsquo;ve been a little bit disappointed with the actual <em>status quo</em> of Apple machines, as a Software Engineer I believe that Apple&rsquo;s walled-garden still offers the best experience and tools for professional developers.</p>
+
+<p>Today, I would like to share my current MacOS setup. I decided to write this post because I just did a clean OSX install on my MacBook Pro, and I needed to re-apply my setup. My setup has been built from a Mobile Developer perspective over the years, and as expected, it is a little bit opinionated as well.</p>
+
+<h2 id="1-developer-tools">1. Developer Tools</h2>
+
+<h4 id="web-browsers">Web browsers</h4>
+
+<ul>
+<li><strong>Firefox</strong>, for browsing all the working-related content</li>
+<li><strong>Chrome</strong>, for browsing everything else, preferably</li>
+</ul>
+
+<p>Nowadays I work 100% remotely from home and given that I use my personal Mac as my working machine, I opted to use two browsers. I try to avoid browsing working content from my &ldquo;personal&rdquo; browser.</p>
+
+<p>On Firefox I access the usual company&rsquo;s stuff like email, calendar, meetings, internal documentation, Basecamp, etc. At 7PM, I just quit Firefox, and work is done (😹).</p>
+
+<p>This workflow is great because it lets me to use Firefox on a daily basis, and I&rsquo;m enjoying it a lot after Quantum! Kudos to Mozilla!</p>
+
+<p>Personally, I still prefer Chrome because I fell it is a little bit faster, and because I&rsquo;m somehow lazy and locked into Google&rsquo;s Web ecosystem &hellip; I should fix that!</p>
+
+<p>Nevertheless, given a really bad security retrospective over the years, I never use Safari, except to install other browsers (IE feelings someone?). You should avoid it as well.</p>
+
+<h4 id="basic-tools">Basic tools</h4>
+
+<p>After a proper clean install, my initial list of developer tools starts with :</p>
+
+<ul>
+<li><strong>Command Line Tools</strong> for Xcode. It is needed to get Homebrew later</li>
+<li><strong>Amazon Corretto8 JDK</strong> as my OpenJDK build of choice</li>
+<li><a href="https://www.iterm2.com/">iTerm2</a> as my terminal replacement</li>
+<li><strong>Docker</strong> for Mac</li>
+</ul>
+
+<p>A quick note about Amazon Corretto : if you work with JVM, please stay away from OracleJDK. Since the begining of 2019, Oracle <a href="https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html">is shooting</a> into Java community, by promoting it&rsquo;s paid distribution of the JDK in a trojan-horse mode. You can learn more about it <a href="https://medium.com/@javachampions/java-is-still-free-2-0-0-6b9aa8d6d244">here</a>.</p>
+
+<p>I recommend you to leverage only on OpenJDK builds at your Mac, especially if you need Java8. The two main contenders here are Amazon&rsquo;s Correto8 and <a href="https://www.azul.com/downloads/zulu/">Azul&rsquo;s Zulu</a>. Amazon&rsquo;s Correto8 <a href="https://aws.amazon.com/blogs/opensource/amazon-corretto-no-cost-distribution-openjdk-long-term-support/">probably</a> will have security updates backported in the mid-term, so stay tunned.</p>
+
+<h4 id="editors-and-ides">Editors and IDEs</h4>
+
+<ul>
+<li><strong>Sublime Text</strong> as my basic code and/or raw text editor</li>
+<li><strong>Intellij IDEA</strong>, the most awesome IDE ever built, for pure Kotlin and/or JVM programming</li>
+<li><strong>Android Studio</strong>, for Android programming</li>
+<li><strong>XCode</strong>, for some random iOS programming</li>
+<li><a href="https://macdown.uranusjr.com/">MacDown</a>, open-source, native Markdown editor</li>
+<li><a href="https://ridiculousfish.com/hexfiend/">Hexfiend</a>, open-source, native hexadecimal viewer and editor</li>
+</ul>
+
+<p>Maybe you are asking now :</p>
+
+<blockquote>
+<p><em>&ldquo;Why Sublime when we have VSCode nowadays ?&rdquo;</em></p>
+</blockquote>
+
+<p>The answer is: I avoid Electron-based desktop apps as much I can. Not only due to <a href="https://www.zdnet.com/article/electron-critical-vulnerability-strikes-app-developers/">security concerns</a> but because</p>
+
+<ol>
+<li>I tend to agree with the <a href="https://medium.com/commitlog/electron-is-cancer-b066108e6c32">opinion</a> that Electron-apps are the new AdobeAir apps</li>
+<li>I fell that well-crafted native apps are the way to go, on Desktop and on Mobile</li>
+</ol>
+
+<p>Given that in the past ten years most of the time I&rsquo;ve been using some IDE as my main tool, I&rsquo;m not into Vim for any particular reason, even though I was a <a href="https://github.com/macvim-dev/macvim">MacVim</a> user in the past.</p>
+
+<p>I use the straight-forward editor for scripting, note-taking, blogging, and some really rare web front-end stuff; therefore I choose Sublime here. It&rsquo;s great, it&rsquo;s native and it does the job.</p>
+
+<p>I was a <a href="https://macromates.com/">TextMate</a> user in the past as well, and for several use cases - like the aforementioned ones - it also does a great job.</p>
+
+<h4 id="http-tooling">HTTP Tooling</h4>
+
+<p>As a full-stack Mobile Engineer, HTTP is my <em>de facto</em> networking protocol for applications. I find these tools quite useful in this arena :</p>
+
+<ul>
+<li><a href="https://www.getpostman.com/">Postman</a>, for work-related REST over HTTP instrumentation</li>
+<li><a href="https://paw.cloud/">Paw</a>, for non-work-related REST over HTTP instrumentation</li>
+<li><a href="https://nssurge.com/">NSSurge</a> for HTTP debugging, a lightweight, native alternative for Charles Proxy</li>
+</ul>
+
+<p>I would love if everyone on my team were a Paw user because it is just an amazing tool. However, Postman is an older, stable and multiplatform contender in the same niche, and is comprehensive that it is a popular option for exercising REST APIs at most of the teams out there.</p>
+
+<h4 id="infrastructure-tooling">Infrastructure Tooling</h4>
+
+<p>Nowadays I also have been playing with backend Web devolopment using some modern JVM frameworks like <a href="https://vertx.io/">Vert.x</a> and <a href="https://ktor.io/">Ktor</a>.</p>
+
+<p>These tools actually supply my current needs here :</p>
+
+<ul>
+<li><a href="https://postgresapp.com/">Postgres.App</a> is a handy option to bootstrap and manage PostgreSQL on Mac</li>
+<li><a href="https://eggerapps.at/postico/">Postico</a> is a nice, lightweight MacOS native client for Postgres databases</li>
+</ul>
+
+<p>Finally, I use <a href="https://kapeli.com/dash">Dash</a> for offline documentation access. I recommend you to give it a try.</p>
+
+<h2 id="2-chrome-extensions">2. Chrome Extensions</h2>
+
+<p>Since most of my important browsing happens on Chrome, I would like to share some extensions I use. I also install most of them on Firefox as well (when available)</p>
+
+<h4 id="security-related-extensions">Security-related extensions</h4>
+
+<ul>
+<li><strong>Lastpass</strong> is my password manager</li>
+<li><strong>uBlock Origin</strong> is my choice for ad-blocking (I also use a custom <strong><em>/etc/hosts</em></strong>)</li>
+<li><strong>MinerBlock</strong> is my choice for stop coin-mining scripts</li>
+<li><a href="https://www.eff.org/https-everywhere">HTTPs Everywhere</a> is my choice to force browsing over a better and safer Web</li>
+</ul>
+
+<h4 id="content-related-extensions">Content-related extensions</h4>
+
+<ul>
+<li><strong>The Great Suspender</strong>, because tabs are expensive and RAM is finite</li>
+<li><strong>Tab Limiter</strong>, which I use to force myself to stay with eight open tabs at maximum.</li>
+<li><strong>Pocket</strong>, which hosts content related to career, mindset, and lifestyle</li>
+<li><strong>Instapaper</strong>, which hosts content related to most of the technical content I read</li>
+<li><strong>Readable Wikipedia</strong>, self-explained</li>
+<li><strong>Make Medium Readable Again</strong>, a must have when Medium gets annoying</li>
+<li><strong>RFCRestyle</strong>, because I like to read RFCs</li>
+<li><strong>JSONView</strong>, because of public REST / GraphQL APIs</li>
+</ul>
+
+<p>A quick note about <a href="https://www.getpostman.com/downloads">TabLimiter</a> : after several of years of passiveness on the too-much-tabs problem, I finally realized that I was using tabs as a parallel, gigantic and unbearable to-do list; limiting tabs and forcing myself to squash-off the unused ones was a game-changer for me. This extension is a simple one and fits my needs.</p>
+
+<p>Finally, I use the famous <a href="https://github.com/romannurik/AndroidSDKSearchExtension">Android SDK Search</a> extension to browser Android documentation from Chrome Omnibox.</p>
+
+<h2 id="3-command-line-setup">3. Command Line Setup</h2>
+
+<p>In the past, I was a loyal <a href="https://www.macports.org/">MacPorts</a> user. However, nowadays <a href="https://brew.sh/">Homebrew</a> is my choice to manage Unix and CLI software on MacOS. So, the very first action on a fresh MacOS box is getting Homebrew up and running.</p>
+
+<p>After that, I configure my CLI with ZSH</p>
+
+<ul>
+<li><a href="https://www.zsh.org/">zsh</a> + <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a> as my default shell</li>
+<li><a href="https://github.com/zsh-users/zsh-completions">zsh-completions</a> + <a href="https://github.com/zsh-users/zsh-autosuggestions">zsh-autosuggestions</a> to boost zsh awesomeness!</li>
+</ul>
+
+<p>There is a lot of handy tools I also install using a half-baked script, for instance</p>
+
+<ul>
+<li><strong>git</strong>, because we need it always up-to-date</li>
+<li><a href="https://github.com/nodakai/tree-command">tree</a> for better directory listing</li>
+<li><a href="https://httpie.org/">httpie</a> for REST instrumentation over CLI</li>
+<li>updated versions of Python and Ruby</li>
+<li>and others, like CI related tools, Heroku and so on</li>
+</ul>
+
+<h4 id="android-specific-cli-tools">Android specific CLI tools</h4>
+
+<p>For Android development, my very first CLI setup is to add all the SDK tools - like ADB, Fastboot and etc - into my shell&rsquo;s path. I link them into my <strong>$PATH</strong> directly pointing to the installation directory defined by the defaul Android Studio installer on my Mac</p>
+
+<pre><code>export ANDROID_HOME=&quot;~/Library/Android/sdk&quot;
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+export PATH=$ANDROID_HOME/tools:$PATH
+</code></pre>
+
+<p>I also use</p>
+
+<ul>
+<li><a href="https://github.com/shyiko/ktlint">ktlint</a>, a Kotlin code formatter actionable from CLI</li>
+<li><a href="https://github.com/Genymobile/scrcpy">scrcpy</a>, a must have tool for any professional Android developer</li>
+<li><a href="https://github.com/rock3r/deep-clean">deep-clean</a>, when the Android tooling fails miserably</li>
+</ul>
+
+<h4 id="git-specific-tools">Git specific tools</h4>
+
+<p>I don&rsquo;t like any visual tools for my daily basis Git usage. I&rsquo;ve tried most of them over the years, including Github for Desktop, Sourcetree, and etc.</p>
+
+<p>My last attempt was <a href="https://git-fork.com/">Fork</a>, just because it&rsquo;s a new native option and I found the tool really eye-catching. If you enjoy GUI options for Git, I recommend you give it a try.</p>
+
+<p>Therefore, I use Git 100% by CLI. I have a couple of aliases I enjoy, but usualy I also leverage on two companion tools, namely :</p>
+
+<ul>
+<li><a href="https://github.com/tj/git-extras">git-extras</a>, because I cannot live without <strong>git undo</strong> 😹</li>
+<li><a href="https://github.com/jesseduffield/lazygit">lazygit</a>, because it&rsquo;s cool!</li>
+</ul>
+
+<p>I have been trying several diff/merge tools over the years &hellip; and saddly, I disliked all of them someway &hellip; 😢</p>
+
+<p>When I have XCode installed for some reason, I use the old school - but built-in - FileMerge, changing only the editor&rsquo;s font.</p>
+
+<p>In my opinion, the Intellij-based Git support is just too slow for my workflow. Nowadays I just disable the Git integration from Intellij / Android Studio as part of my IDEs setup.</p>
+
+<p>I use Git 100% through the CLI and several times I just want to solve the conflict and re-check the build directly on CLI &hellip; I don&rsquo;t want to bootstrap an entire project on IDE, even I find it&rsquo;s diff visuals are quite powerful. Sometimes IDE goes crazy due to the conflicts themselves &hellip; Not practical for me.</p>
+
+<p>I do like an external visual tool for VCS conflicts resolution, but I prefer a simple and fast one. Filemerge delivers that. Nowadays I&rsquo;m evaluating SublimeMerge as an option as well. Let&rsquo;s see how it goes!</p>
+
+<h2 id="4-communication-tools">4. Communication Tools</h2>
+
+<ul>
+<li><a href="https://sparkmailapp.com/">Spark Email Client</a>, usually for work-related emails</li>
+<li><a href="https://macos.telegram.org/">Telegram</a> for Mac. The native and handy-to-use one.</li>
+<li><a href="https://tapbots.com/tweetbot/mac/">Tweetbot</a> as my Twitter Client</li>
+<li><strong>Slack</strong>, because I cannot avoid it &hellip; (I don&rsquo;t know if any developer can nowadays)</li>
+</ul>
+
+<h2 id="5-productivity-tools">5. Productivity Tools</h2>
+
+<p>Some tools help with productivity more than others. And my champion here is <a href="https://www.alfredapp.com/">Alfred</a>.</p>
+
+<p>I really love this piece of software. I use it since 2009, and I am a proud supporter of this product. I have my custom theme and my workflows, and if you only know Stoplight until now, you should check what <a href="https://github.com/eveliotc/gradleplease-workflow">you are missing</a>. Nevertheless, Alfred does not have privacy issues like Apple&rsquo;s Stoplight.</p>
+
+<p>On my Mac, I just disable Stoplight and put CMD + Space as my Alfred shortcut as part of my setup.</p>
+
+<p>I also would like to mention some other tools I use to productivity</p>
+
+<ul>
+<li><a href="http://alternoteapp.com/">Alternote</a> is my lightweight alternate client for my Evernote account</li>
+<li><a href="https://www.omnigroup.com/omnigraffle/">Omnigraffle</a> is my choice for fancy and complex diagrams</li>
+<li><strong>Keynote</strong> is my choice for presentations</li>
+<li><strong>Trello</strong> is my centralized to-do list and workflow manager. I use the Desktop app, and would love to have a native one &hellip;</li>
+</ul>
+
+<p>As a Mobile Engineer, as also leverage on the following tools to deal with images :</p>
+
+<ul>
+<li><a href="https://zeplin.io">Zeplin</a> for consuming project&rsquo;s visual assets</li>
+<li><a href="https://www.pixelmator.com/mac/">Pixelmator Classic</a> for some basic editing-fu on images</li>
+<li><a href="https://gfycat.com/gifbrewery">GifBrewery3</a> to make GIFs.</li>
+</ul>
+
+<p>I frequently use GIFs to report visuals bugs to my team and also to illustrate visual changes on my pull requests. Github does not like MP4 videos, so GIFs all the way!</p>
+
+<h2 id="6-security">6. Security</h2>
+
+<p>Security is main concern for me. I&rsquo;m not an expert on this subject, but I&rsquo;m always learning and I have my proper setup and configuration in order to harder a little bit my MacOS box.</p>
+
+<p>I would like to mention here two specific tools :</p>
+
+<ul>
+<li><a href="https://github.com/jedisct1/dnscrypt-proxy">dnscrypt-proxy</a> is a great utility for DNS privacy</li>
+<li><a href="https://github.com/objective-see/LuLu">Lulu</a>, in order to block - or learn more about - outgoing network connections. Just an open-source alternative to <a href="https://www.obdev.at/products/littlesnitch/index.html">LittleSnitch</a></li>
+</ul>
+
+<p>If you want to learn about hardening your Mac, I recommend the following links:</p>
+
+<ul>
+<li><a href="https://blog.bejarano.io/hardening-macos.html">Hardening MacOS</a></li>
+<li><a href="https://github.com/drduh/macOS-Security-and-Privacy-Guide">OSX Privacy and Security Guide</a></li>
+</ul>
+
+<h2 id="7-other">7. Other</h2>
+
+<ul>
+<li><a href="https://matthewpalmer.net/rocket/">Rocket</a>, because we need emojis everywhere. Really, I love this app!</li>
+<li><a href="http://displaymenu.milchimgemuesefach.de/">DisplayMenu</a> for easy displays control</li>
+<li><a href="https://freemacsoft.net/appcleaner/">AppCleaner</a>, for deleting unused apps</li>
+<li><strong>The Unarchiver</strong> for zipped content</li>
+<li><strong>VLC</strong> as my media player</li>
+<li>and much more!</li>
+</ul>
+
+<h2 id="8-further-work">8. Further work</h2>
+
+<p>Of course, my MacOS setup is an ongoing and unfinished work. I believe I have a room for improvements here.</p>
+
+<p>In the future, I would like to leverage on a 100% automated setup in a fresh install. We can find <a href="https://github.com/nomisRev/mac-install">some samples</a> of that out there, heavily based on Homebrew. Probably some rsyncing may be needed on my particular case, but is still worth a try someday.</p>
+
+<p>Furthermore, I would like to improve my security setup, leveraging on <a href="https://www.yubico.com/solutions/fido-u2f/">FIDO keys</a> in the near future. But this is a topic for the next post.</p>
+
+			
+
+		</section>
+	</article>
+	</div>
+
+	<footer class="site-footer">
+
+
+	<nav class="site-nav">
+		<ul>
+			<li class="icon">
+	<a href="https://ubiratansoares.github.io/" title="">
+		<i class="fa fa-fw fa-home"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://github.com/ubiratansoares" title="GitHub">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+<li class="icon">
+	<a href="https://twitter.com/ubiratanfsoares" title="Twitter">
+		<i class="fa fa-fw fa-twitter"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://www.linkedin.com/in/ubiratanfsoares" title="LinkedIn">
+		<i class="fa fa-fw fa-linkedin"></i>
+	</a>
+</li>
+		</ul>
+	</nav>
+
+	</br>
+
+	<p class="text">&copy; 2019 - Ubiratan Soares | Some rights reserved</p>
+
+</footer>
+
+
+</body>
+</html>
